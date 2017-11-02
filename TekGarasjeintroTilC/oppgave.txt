@@ -1,0 +1,8 @@
+Oppgave:
+
+- Lag en heltallsvariabel
+- sett denne til 10
+- Lag en loop som inkrementerer variablen med 1 pr loop
+- I hver loop lag en test på om bit 4 er satt
+- Dersom bit 4 er satt skriv ut verdien på variablen
+
