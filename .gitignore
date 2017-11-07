@@ -3,3 +3,7 @@
 ################################################################################
 
 *.ipch
+/TekGarasjeintroTilC/Debug
+/TekGarasjeintroTilC/SwitchCase/Debug
+/TekGarasjeintroTilC/Tabeller/Debug
+/TekGarasjeintroTilC/.vs/HalloVerden/v15/Browse.VC.opendb
