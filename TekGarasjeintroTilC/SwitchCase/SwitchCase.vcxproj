@@ -23,6 +23,7 @@
     <ProjectGuid>{57E7AF57-7446-44A7-AFBF-683248CE2B06}</ProjectGuid>
     <RootNamespace>SwitchCase</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <ProjectName>SwitchCase.del3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

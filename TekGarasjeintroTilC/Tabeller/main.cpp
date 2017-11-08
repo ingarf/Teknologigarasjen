@@ -5,26 +5,50 @@
 Finn ut hvordan en tabell kan skrives ut vha en funksjon
 */
 
+#define LENGDE	100
+
+
 int main()
 {
-	uint8_t tabell1[10] = { 5,5,5,5,5,5,5,5,5,5 };
+	char tabell[LENGDE];
 
-	for (int i = 0; i < 10; i++)
+	for (int i = 0; i < LENGDE; i++)
 	{
-		printf("%d ", tabell1[i]);
+		if (i != 3)
+		{
+			tabell[i] = i + 1;
+		}
+		else {
+			tabell[i] = 254;
+		}
+	}
+
+	int sum = 0;
+	for (int i = 0; i < LENGDE; i++)
+	{
+		printf("%d ", tabell[i]);
+		sum = sum + tabell[i];
 	}
 	printf("\n");
 
-	tabell1[0] = 1;
-	tabell1[1] = 2;
+	
 
-	for (int i = 0; i < 10; i++)
+	float gjsnitt = sum / LENGDE;
+	printf("Gjennomsnitt=%3.2f\n", gjsnitt);
+
+	for (int i = 0; i < LENGDE; i++)
 	{
-		printf("%d ", tabell1[i]);
+		printf("%d ", tabell[i]);
 	}
 	printf("\n");
 
-	char tabell2[10] = { 'c','c','c','c','c','c','c','c','c','c' };
+
+	char tabell2[10];
+	for (int i = 0; i < 10; i++)
+	{
+		tabell2[i] = 'c';
+	}
+
 	for (int i = 0; i < 10; i++)
 	{
 		printf("%c ", tabell2[i]);

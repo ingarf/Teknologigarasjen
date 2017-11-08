@@ -5,10 +5,25 @@ void PrintTabeller(int temp, int fukt)
 	printf("Temperatur=%d, fuktighet=%d\n", temp, fukt);
 }
 
+struct MedArray
+{
+	int funktighet[5];
+	int temperatur[5];
+};
+
+enum e_humor {
+	Sur,
+	Blid,
+	Glad,
+	Full
+};
+
 struct TempFukt
 {
 	int temperatur;
-	int fuktighet;
+	float fuktighet;
+	double voltage;
+	enum e_humor humor;
 };
 
 void PrintTabell(struct TempFukt tf)

@@ -13,11 +13,27 @@ int main()
 	printf("Angi en verdi: ");
 	scanf_s("%d", &val);
 
+	/*
+	if (val==0)
+	{
+		printf("Du skrev 0\n");
+	} else if (val==1)
+	{
+		printf("Du skrev 0\n");
+	}
+	else
+	{
+		printf("Du ikke 0, 1\n");
+	}
+	*/
 	switch (val)
 	{
 	case 0:
+	{
+		int bval = 6;
 		printf("Du skrev 0\n");
-		break;
+		break; 
+	}
 	case 1:
 		printf("Du skrev 1\n");
 		break;

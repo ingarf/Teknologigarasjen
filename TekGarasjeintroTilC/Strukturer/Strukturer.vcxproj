@@ -23,6 +23,7 @@
     <ProjectGuid>{59F81D8B-B7AB-44B5-BC76-D10E8DF1F6CF}</ProjectGuid>
     <RootNamespace>Strukturer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <ProjectName>Strukturer.del3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

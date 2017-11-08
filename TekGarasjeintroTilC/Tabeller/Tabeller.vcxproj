@@ -23,6 +23,7 @@
     <ProjectGuid>{8DD69D3A-6DA9-427D-B756-5FA41F559D3A}</ProjectGuid>
     <RootNamespace>Tabeller</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+    <ProjectName>Tabeller.del3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

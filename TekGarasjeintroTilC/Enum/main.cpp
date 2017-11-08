@@ -8,22 +8,30 @@
 - Avbryt loopen når den har gått gjennom alle tilstandene 4 ganger
 */
 
+enum OnOff
+{
+	On,
+	Off
+};
+
 enum Farger
 {
-	Yellow,
-	Red,
+	Yellow=On,
+	Red=42,
 	Blue,
-	Green
+	Green,
+	Grey=66
 };
+
 
 void PrintColor(enum Farger f)
 {
 	switch (f)
 	{
-	case Yellow:
+	case Yellow:	// case 0
 		printf("Fargen er gul\n");
 		break;
-	case Red:
+	case Red:		// case 1
 		printf("Fargen er red\n");
 		break;
 	default:
