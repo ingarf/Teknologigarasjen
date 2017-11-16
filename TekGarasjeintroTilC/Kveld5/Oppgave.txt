@@ -1,0 +1,14 @@
+Oppgave til kveld 5, 22. nov:
+
+- Finn noe i din hverdag som du kan beskrive som et hierarki med klasser
+- Tenk på prinsippene:
+	- "Er en", "har en", og "kan"
+- Klasse hierarkiet skal ha minst 2 nivåer, base klasse og klasser som arver av baseklassen
+- Alle klassene skal ha både egenskaper (attribut'er) og metoder.
+	- Noen felles, noen spesifike egenskaper/metoder
+- Minst en egenskap skal være en enum
+
+- Når klassene er implementert og testet, forsøk å gjøre det samme ved hjelp av "vanlig" C kode. 
+	- Struct'er, enum'er, tabeller, vanlige typer.
+
+- Vi går gjennom løsningen i felleskap og ser på styrker/svakheter
