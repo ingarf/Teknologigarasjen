@@ -1,0 +1,7 @@
+﻿  Source.cpp
+e:\users\starmoen\source\repos\teknologigarasjen\tekgarasjeintrotilc\dynminnepekere\source.cpp(79): warning C4305: '=': truncation from 'double' to 'float'
+e:\users\starmoen\source\repos\teknologigarasjen\tekgarasjeintrotilc\dynminnepekere\source.cpp(78): warning C4477: 'printf' : format string '%08x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'float *'
+e:\users\starmoen\source\repos\teknologigarasjen\tekgarasjeintrotilc\dynminnepekere\source.cpp(80): warning C4477: 'printf' : format string '%08X' requires an argument of type 'unsigned int', but variadic argument 1 has type 'float *'
+e:\users\starmoen\source\repos\teknologigarasjen\tekgarasjeintrotilc\dynminnepekere\source.cpp(101): warning C4477: 'printf' : format string '%08x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'int *'
+  DynMinnePekere.vcxproj -> e:\Users\Starmoen\source\repos\Teknologigarasjen\TekGarasjeintroTilC\Debug\DynMinnePekere.exe
+  DynMinnePekere.vcxproj -> e:\Users\Starmoen\source\repos\Teknologigarasjen\TekGarasjeintroTilC\Debug\DynMinnePekere.pdb (Partial PDB)

@@ -17,10 +17,21 @@ enum MotorType
 
 class Bil
 {
+protected:
 	Farger farge;
 	MotorType motor;
 
 public:
+	Bil()
+	{
+		printf("Lager bil\n");
+	}
+
+	~Bil()
+	{
+		printf("knuser bil\n");
+	}
+
 	void SettFarge(Farger nyfarge)
 	{
 		farge = nyfarge;
@@ -70,7 +81,10 @@ public:
 
 int main()
 {
+
 	Volvo bil1;
+
+	//bil1.
 
 	Bil *minBil = NULL;
 	int biltype;
@@ -98,6 +112,18 @@ int main()
 
 
 	getchar();
+	getchar();
+
+	if (minBil != NULL)
+	{
+		delete minBil;
+		minBil = NULL;
+	}
+
+	if (minBil != NULL)
+	{
+		minBil->Tut();
+	}
 	getchar();
 
 	return 0;
