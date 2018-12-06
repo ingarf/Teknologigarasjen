@@ -1,0 +1,103 @@
+
+struct Hjul
+{
+  unsigned int diameter;
+  unsigned int alder;
+  char dimensjon;
+  char merke[25];
+  bool sommer;
+  float trykk;
+};
+
+struct FuelSystem
+{
+  
+};
+
+struct noe_annet {
+  
+};
+
+typedef unsigned int cm3;
+
+struct Motor
+{
+  cm3 volum;
+  unsigned int ant_sylindre;
+  unsigned int effekt;
+  FuelSystem pumpe;
+  noe_annet diverse;
+
+private:
+  bool runs;
+
+public:
+  bool is_running();
+  void start();
+};
+
+bool Motor::is_running()
+{
+  return runs;
+}
+
+bool Motor::start(bool start)
+{
+  
+  runs = start;
+}
+
+struct Girkasse
+{
+  unsigned int antall_gir;
+  int gjeldende_gir;
+  noe_annet girkassefeil;  
+};
+
+struct Drivstoff
+{
+  char type[20];
+  unsigned int volumPaTanken;
+};
+
+struct Bil
+{
+  char merke[25];
+  int aarsmodell;
+  char reg_nr[8];
+  Hjul hjul[4];
+  Motor motor;
+  Girkasse girkasse;
+  Drivstoff drivstoff;
+
+  void Start();
+};
+
+void Bil::Start()
+{
+//  if (motor.runs=true) return;
+  if (motor.is_running()) return;
+  if (drivstoff.volumPaTanken==0) return;
+
+  motor.start(true);
+}
+
+struct analogVerdier
+{
+  int value1;
+  int value2;
+};
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(115200);
+}
+
+
+void loop() {
+  Bil bilen;
+  strcpy(bilen.merke,"Saab");
+  bilen.motor.volum = 8000;  
+
+  bilen.Start();
+}
